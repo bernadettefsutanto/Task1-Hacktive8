@@ -1,63 +1,94 @@
 /* Desktop */
-@media  (min-width:992px){
-.btn-primary {
+@media (min-width:992px) {
+    .btn-primary {
         --bs-btn-padding-y: 10px;
         --bs-btn-padding-x: 60px;
         --bs-btn-font-size: 20px;
-        --bs-btn-border-radius:40px;
-        --bs-btn-font-family:Arial, Helvetica, sans-serif;
+        --bs-btn-border-radius: 40px;
+        --bs-btn-font-family: Arial, Helvetica, sans-serif;
         --bs-btn-color: white;
         --bs-btn-bg: black;
         --bs-btn-hover-color: black;
         --bs-btn-hover-bg: grey;
-      }
-h1{
-    font-size: 200px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-}
-.navbar{
-    color: white;
-    text-shadow: 1px 1px 1px grey;
-}
+    }
 
-.nav-link{
-    margin: auto;
-    margin-right: 40px;
-    color: white;
-    font-size: 20px;
-}
+    h1 {
+        font-size: 200px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 40%;
+        margin-bottom: -2%;
+    }
 
-.nav-link:hover{
-    border-bottom: 5px solid white;
-    font-weight: bold;
-    color:aqua;
-}
+    h3 {
+        padding-left: 50%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        color: white;
+    }
 
-.containertext{
--ms-flex-item-align: end;    
-}
+    .nav-link {
+        margin: auto;
+        margin-right: 40px;
+        color: white;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px grey;
+    }
 
-.jumbotron{
-    background-image: url('Asset/Home Wave.png');
-    background-repeat: no-repeat;
-    height: 1020px;
-    margin-top: -175px;
-    background-size: cover;
-}
+    .nav-link:hover {
+        border-bottom: 5px solid white;
+        font-weight: bold;
+        color: aqua;
+    }
+
+    .jumbotron {
+        background-image: url('Asset/Home Wave.png');
+        background-repeat: no-repeat;
+        height: 1020px;
+        margin-top: -175px;
+        background-size: cover;
+    }
 }
 
 /* Mobile */
-@media (max-width:991px){
-    body{
+@media (max-width:991px) {
+    body {
         background-image: url('Asset/Index_Mb.png');
         background-size: cover;
     }
-    .navbar .nav-link .navbar-toggler-icon{
+
+    .navbar .nav-link .navbar-toggler-icon {
         color: white;
+    }
+
+    .btn-primary {
+        --bs-btn-padding-y: 10px;
+        --bs-btn-padding-x: 60px;
+        --bs-btn-font-size: 20px;
+        --bs-btn-border-radius: 40px;
+        --bs-btn-font-family: Arial, Helvetica, sans-serif;
+        --bs-btn-color: white;
+        --bs-btn-bg: black;
+        --bs-btn-hover-bg: grey;
+    }
+
+    h1 {
+        font-size: 100px;
+        color: white;
+        text-shadow: 2px solid grey;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 5px solid grey;
+        font-weight: lighter;
+        color: white;
+    }
+
+    .navbar {
+        color: white;
+        text-shadow: 1px 1px 1px grey;
     }
 }
